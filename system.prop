@@ -28,6 +28,15 @@ persist.sys.brightness.low.gamma=true
 # FM Radio
 persist.internalAntenna.enable=true
 
+# Fling
+ro.min.fling_velocity=160 
+ro.max.fling_velocity=20000
+ro.max.fling_velocity=20000
+
+# FS-verity
+ro.apk_verity.mode=2
+
+>>>>>>> b2ce086 (mt6768-common: props: For smoother scrolling and better responsiveness)
 # GPU
 ro.opengles.version=196610
 
