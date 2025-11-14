@@ -182,5 +182,10 @@ BOARD_VNDK_VERSION := current
 # Wifi
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
+PERF_ANIM_OVERRIDE := true
+
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/mt6768-common/BoardConfigVendor.mk
