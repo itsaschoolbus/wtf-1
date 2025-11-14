@@ -454,5 +454,8 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 USE_DEX2OAT_DEBUG := false
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mt6768-common/mt6768-common-vendor.mk)
