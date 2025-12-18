@@ -456,5 +456,5 @@ $(call inherit-product, vendor/xiaomi/mt6768-common/mt6768-common-vendor.mk)
 # ViperFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
-# Fonts
-$(call inherit-product, vendor/fonts/fonts.mk)
+# Addons
+$(call inherit-product, vendor/addons/addons.mk)
