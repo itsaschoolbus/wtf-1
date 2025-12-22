@@ -454,7 +454,7 @@ USE_DEX2OAT_DEBUG := false
 $(call inherit-product, vendor/xiaomi/mt6768-common/mt6768-common-vendor.mk)
 
 # ViperFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product, device/xiaomi/mt6768-common/ViPER4AndroidFX/config.mk)
 
 # Addons
 $(call inherit-product, vendor/addons/addons.mk)
